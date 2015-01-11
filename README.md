@@ -1,2 +1,4 @@
-gif.horrido.io
+gif.martinwolf.org
 ==============
+
+A collection of gifs
