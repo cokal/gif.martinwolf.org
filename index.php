@@ -41,9 +41,17 @@
 
 <ul class="list">
     <?php foreach($images as $image) { ?>
+        <?php
+            /**
+             * getimagesize returns an array, which 4th key value consists of
+             * the HTML for width and height
+             */
+            $image_dimensions = getimagesize($image)[3];
+        ?>
         <li class="list__item">
             <img
                 src="<?php echo $image ?>"
+                <?php echo $image_dimensions ?>
                 alt="<?php echo $image ?>">
 
             <input
