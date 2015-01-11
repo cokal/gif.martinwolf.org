@@ -1,0 +1,41 @@
+/**
+ * List
+ */
+
+.list {
+    margin: 0 auto;
+    max-width: 900px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list__item {
+    max-width: 30%;
+    margin-bottom: 5rem;
+    padding: 2rem 1rem;
+
+    @media (max-width: 740px) {
+        max-width: 50%;
+        padding: 1rem 2rem;
+    }
+
+    @media (max-width: 440px) {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.path {
+    width: 100%;
+    padding: 1rem;
+    font-family: Lato, Arial;
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+}
+
+.path:focus {
+    border-color: #3c3c3c;
+}

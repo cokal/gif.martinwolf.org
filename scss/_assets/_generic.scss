@@ -1,0 +1,32 @@
+/**
+ * Generic
+ */
+
+body {
+    padding: 4rem 2rem;
+    border-top: 4px solid #bb11e5;
+    border-bottom: 4px solid #bb11e5;
+}
+
+img {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.site-header {
+    margin-bottom: 4rem;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.site-footer a {
+    color: #3c3c3c;
+
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
