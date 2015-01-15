@@ -59,7 +59,7 @@
                 class="path"
                 readonly
                 type="text"
-                value="<?php echo $_SERVER['HTTP_HOST'].'/'.$image ?>">
+                value="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$image ?>">
         </li>
     <?php } ?>
 </ul>
